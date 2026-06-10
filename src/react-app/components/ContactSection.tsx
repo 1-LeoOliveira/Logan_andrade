@@ -1,4 +1,4 @@
-import { Video, MapPin, Phone } from "lucide-react";
+import { Video, MapPin, Phone, MessageCircle } from "lucide-react";
 
 export default function ContactSection() {
   return (
@@ -29,13 +29,13 @@ export default function ContactSection() {
               <p className="text-white/60 text-sm mb-4">
                 Sessões de terapia por videochamada, de qualquer lugar do Brasil
               </p>
-              <a 
-                href="https://wa.me/5531994568337" 
-                target="_blank" 
+              <a
+                href="https://wa.me/5531994568337"
+                target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 text-[#c9a962] transition-all duration-300 hover:text-white hover:translate-x-1"
               >
-                <Phone className="w-4 h-4" />
+                <MessageCircle className="w-4 h-4" />
                 Agendar via WhatsApp
               </a>
             </div>
@@ -46,13 +46,13 @@ export default function ContactSection() {
               <p className="text-white/60 text-sm mb-4">
                 Atendimento a domicílio exclusivo para Belo Horizonte
               </p>
-              <a 
-                href="https://wa.me/5531994568337" 
-                target="_blank" 
+              <a
+                href="https://wa.me/5531994568337"
+                target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 text-[#c9a962] transition-all duration-300 hover:text-white hover:translate-x-1"
               >
-                <Phone className="w-4 h-4" />
+                <MessageCircle className="w-4 h-4" />
                 Solicitar informações
               </a>
             </div>

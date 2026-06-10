@@ -83,8 +83,8 @@ export default function TherapyHelpsSection() {
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
               {[
                 { barrier: "Não sei se terapia funciona", response: "A TCC é baseada em evidências científicas" },
-                { barrier: "Tenho medo de ser julgado", response: "O consultório é um espaço seguro e sigiloso" },
-                { barrier: "Não quero enfrentar meus problemas", response: "Vamos no seu ritmo, com acolhimento" },
+                { barrier: "Tenho medo de ser julgado", response: "A terapia é um espaço de escuta livre de juízos de valor" },
+                { barrier: "Não consigo enfrentar meus problemas", response: "Vamos no seu ritmo, com acolhimento" },
                 { barrier: "Acho que deveria resolver sozinho", response: "Buscar ajuda é um ato de coragem" }
               ].map((item, index) => (
                 <div key={index} className="p-6 bg-white rounded-sm border border-[#1e3a5f]/10">
