@@ -1,4 +1,4 @@
-import { Video, MapPin, Phone, MessageCircle } from "lucide-react";
+import { Video, MapPin, MessageCircle } from "lucide-react";
 
 export default function ContactSection() {
   return (
@@ -65,7 +65,7 @@ export default function ContactSection() {
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center gap-3 px-12 py-5 bg-[#c9a962] text-[#1e3a5f] font-semibold text-lg rounded-full transition-all duration-300 hover:bg-white hover:scale-105 hover:shadow-xl shadow-lg shadow-[#c9a962]/20"
           >
-            <Phone className="w-5 h-5" />
+            <MessageCircle className="w-5 h-5" />
             Agendar Primeira Sessão
           </a>
           
